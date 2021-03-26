@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.6.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EA5D5D14-5092-4816-8183-C88C057C86FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroElements.AutoMapper.NodaTime", "src\MicroElements.AutoMapper.NodaTime\MicroElements.AutoMapper.NodaTime.csproj", "{C1B337A6-0F8B-49F4-8547-02B7E414C3D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{52F4FBA4-7B58-4379-A4D1-0EDA3CF4E9FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroElements.AutoMapper.NodaTime.Tests", "test\MicroElements.AutoMapper.NodaTime.Tests\MicroElements.AutoMapper.NodaTime.Tests.csproj", "{9E1FDA6B-D041-434F-9C1B-131F24D11F67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E6462C6C-A98F-420F-A533-AEFCAB0B388C}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		common.props = common.props
+		src\Directory.Build.props = src\Directory.Build.props
+		README.md = README.md
+		src\stylecop.props = src\stylecop.props
+		version.props = version.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1B337A6-0F8B-49F4-8547-02B7E414C3D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B337A6-0F8B-49F4-8547-02B7E414C3D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B337A6-0F8B-49F4-8547-02B7E414C3D9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C1B337A6-0F8B-49F4-8547-02B7E414C3D9}.Debug|x64.Build.0 = Debug|Any CPU
+		{C1B337A6-0F8B-49F4-8547-02B7E414C3D9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C1B337A6-0F8B-49F4-8547-02B7E414C3D9}.Debug|x86.Build.0 = Debug|Any CPU
+		{C1B337A6-0F8B-49F4-8547-02B7E414C3D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B337A6-0F8B-49F4-8547-02B7E414C3D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B337A6-0F8B-49F4-8547-02B7E414C3D9}.Release|x64.ActiveCfg = Release|Any CPU
+		{C1B337A6-0F8B-49F4-8547-02B7E414C3D9}.Release|x64.Build.0 = Release|Any CPU
+		{C1B337A6-0F8B-49F4-8547-02B7E414C3D9}.Release|x86.ActiveCfg = Release|Any CPU
+		{C1B337A6-0F8B-49F4-8547-02B7E414C3D9}.Release|x86.Build.0 = Release|Any CPU
+		{9E1FDA6B-D041-434F-9C1B-131F24D11F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E1FDA6B-D041-434F-9C1B-131F24D11F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E1FDA6B-D041-434F-9C1B-131F24D11F67}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9E1FDA6B-D041-434F-9C1B-131F24D11F67}.Debug|x64.Build.0 = Debug|Any CPU
+		{9E1FDA6B-D041-434F-9C1B-131F24D11F67}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9E1FDA6B-D041-434F-9C1B-131F24D11F67}.Debug|x86.Build.0 = Debug|Any CPU
+		{9E1FDA6B-D041-434F-9C1B-131F24D11F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E1FDA6B-D041-434F-9C1B-131F24D11F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E1FDA6B-D041-434F-9C1B-131F24D11F67}.Release|x64.ActiveCfg = Release|Any CPU
+		{9E1FDA6B-D041-434F-9C1B-131F24D11F67}.Release|x64.Build.0 = Release|Any CPU
+		{9E1FDA6B-D041-434F-9C1B-131F24D11F67}.Release|x86.ActiveCfg = Release|Any CPU
+		{9E1FDA6B-D041-434F-9C1B-131F24D11F67}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1B337A6-0F8B-49F4-8547-02B7E414C3D9} = {EA5D5D14-5092-4816-8183-C88C057C86FA}
+		{9E1FDA6B-D041-434F-9C1B-131F24D11F67} = {52F4FBA4-7B58-4379-A4D1-0EDA3CF4E9FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3148E4D2-91CA-461A-B75E-F1374573A2DD}
+	EndGlobalSection
+EndGlobal
